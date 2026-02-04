@@ -2,6 +2,7 @@
     min-height: fit-content;
     font-family: Arial, sans-serif;
 	display: flex;
+	background-color: rgba(0, 0, 0, 0);
     justify-content: center;
     align-items: center;
     flex-direction: row;
