@@ -2,7 +2,7 @@
     min-height: fit-content;
     font-family: Arial, sans-serif;
 	display: flex;
-	background-color: var(--clr-primary-800);
+	background: transparent; 
     justify-content: center;
     align-items: center;
     flex-direction: row;
@@ -22,7 +22,7 @@
 
 .slider .list {
     display: flex;
-	background: var(--clr-primary-400);
+	background: transparent; 
     width: 100%;
     min-width: calc(var(--width) * var(--quantity));
     position: relative;
