@@ -2,7 +2,6 @@
     min-height: fit-content;
     font-family: Arial, sans-serif;
 	display: flex;
-	background: transparent;  
     justify-content: center;
     align-items: center;
     flex-direction: row;
