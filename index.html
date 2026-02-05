@@ -1,23 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <script>
-        (function(){
-  function setBodyBackground(){
-    try{
-      const isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-      document.body.style.background = isDark ? '#191919' : '#ffffff';
-    } catch(e) {
-      document.body.style.background = '#ffffff';
-    }
-  }
-  if(window.matchMedia){
-    window.matchMedia('(prefers-color-scheme: dark)').addListener(setBodyBackground);
-  }
-  setBodyBackground();
-})();
-     <script>
-           
+<head>     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -37,5 +20,21 @@
             <div class="item" style="--position: 10"><img src="https://m.media-amazon.com/images/S/pv-target-images/3290b5bd927872aa1bc110fe75cc785b5ee799f6f8633a805656cce9eb3f5fc3.jpg" alt="Shrinking"></div>
         </div>
     </div>
+        <script>
+        (function(){
+  function setBodyBackground(){
+    try{
+      const isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      document.body.style.background = isDark ? '#191919' : '#ffffff';
+    } catch(e) {
+      document.body.style.background = '#ffffff';
+    }
+  }
+  if(window.matchMedia){
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(setBodyBackground);
+  }
+  setBodyBackground();
+})();
+     <script>
 </body>
 </html>
